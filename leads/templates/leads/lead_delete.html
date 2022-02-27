@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <form action="." method="post">
+        {% csrf_token %}
+        Would you like to <button type="submit">delete</button> this object 
+    </form>
+{% endblock content %}
