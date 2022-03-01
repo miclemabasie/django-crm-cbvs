@@ -19,7 +19,6 @@ module.exports = {
          * Adjust the following line to match your project structure.
          */
         '../../templates/**/*.html',
-        '../../templates/base.html',
         
         /* 
          * Templates in other django apps (BASE_DIR/<any_app_name>/templates).

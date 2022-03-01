@@ -15,6 +15,7 @@
 
 <body>
     {% include "./utils/navigation.html" %}
+    <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
         {% block content %}
         
         {% endblock content %}
@@ -22,7 +23,7 @@
         {% block scripts %}
         
         {% endblock scripts %}
-
+    </div>
 </body>
 </html>
 
